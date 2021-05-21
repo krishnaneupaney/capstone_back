@@ -1,1 +1,1 @@
-web: gunicorn sheltered-stream-73342.wsgi --log-file -
+web: gunicorn capstonebackend.wsgi

@@ -27,7 +27,7 @@ SECRET_KEY = '3p8%wg--(pd9!pojs(_lnzidls7_uf4sftje9bp-_%j21v9i$@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://sheltered-stream-73342.herokuapp.com/']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -142,7 +142,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.1/howto/static-files/
 
 STATIC_URL = '/static/'
-
-# MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # MEDIA_URL = '/media/'
 
